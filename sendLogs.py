@@ -19,7 +19,7 @@ def populateData():
 def sendData(data_str):
     sock = socket(AF_INET, SOCK_DGRAM)
     for i in range(5):
-        sock.sendto(bytes(data_str[i],"utf-8"), ('localhost', 5400))
+        sock.sendto(bytes(data_str[i],"utf8"), ('localhost', 5400))
 
 if __name__ == "__main__":
     main()
