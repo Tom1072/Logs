@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "age":{"type": "long"},
+        "name":{"type": "keyword"},
+        "gender":{"type": "keyword"},
+        "company":{"type": "keyword"},
+        "email":{"type": "keyword"},
+        "phone":{"type": "text"},
+        "address":{"type": "text"} 
+    }
+}
